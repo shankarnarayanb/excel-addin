@@ -15,7 +15,35 @@ A powerful Excel VBA tool designed for the secure anonymization of Personal Iden
 - **Manual Column Selection**: Override automatic PII detection by selecting columns by Name or Index
 - **CSV Import Utility**: Built-in function to quickly import CSV files directly into Excel
 
+## 🛠️ Installation & Setup
 
+
+### Excel Add-in Installation (Recommended)
+
+This method installs the tool as a persistent Excel add-in, making it available across all workbooks.
+
+1. **Download the Add-in**: Download the Excel Add-in file (`.xlam` file)
+
+2. **Copy to AddIns Folder**:
+   - Navigate to: `C:\Users\<YourUsername>\AppData\Roaming\Microsoft\AddIns`
+   - If the folder doesn't exist, create it manually
+   - Copy the `.xlam` file to this location
+   
+   > 💡 **Tip**: To quickly access the AppData folder, press `Win + R`, type `%appdata%\Microsoft\AddIns`, and press Enter
+
+3. **Enable the Add-in in Excel**:
+   - Open Microsoft Excel
+   - Go to `File` → `Options` → `Add-ins`
+   - At the bottom of the window, select `Excel Add-ins` from the **Manage** dropdown
+   - Click `Go...`
+   - In the Add-ins dialog, check the box next to **PII Data Sanitizer**
+   - Click `OK`
+
+4. **Verify Installation**:
+   - The PII Data Sanitizer ribbon tab should now appear in Excel
+   - If you don't see the ribbon, restart Excel
+  
+     
 ## 📖 User Guide
 
 ### 1. Prerequisites
