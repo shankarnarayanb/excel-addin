@@ -36,11 +36,11 @@ This method installs the tool as a persistent Excel add-in, making it available 
    - Go to `File` → `Options` → `Add-ins`
    - At the bottom of the window, select `Excel Add-ins` from the **Manage** dropdown
    - Click `Go...`
-   - In the Add-ins dialog, check the box next to **PII Data Sanitizer**
+   - In the Add-ins dialog, check the box next to **PII Sanitizer**
    - Click `OK`
 
 4. **Verify Installation**:
-   - The PII Data Sanitizer ribbon tab should now appear in Excel
+   - The PII Sanitizer ribbon tab should now appear in Excel
    - If you don't see the ribbon, restart Excel
   
      
