@@ -46,7 +46,28 @@ This method installs the tool as a persistent Excel add-in, making it available 
    - The PII Sanitizer ribbon tab should now appear in Excel
    - If you don't see the ribbon, restart Excel
   
-     
+#### Using a Custom Installation Location
+
+If you don't have access to the default AddIns folder (e.g., in restricted corporate environments), you can install the add-in from any location:
+
+1. **Save the Add-in File**: Save the `.xlam` file to any accessible location on your computer (e.g., `D:\MyExcelAddIns\` or a network drive)
+
+2. **Enable from Custom Location**:
+   - Open Microsoft Excel
+   - Go to `File` → `Options` → `Add-ins`
+   - At the bottom, select `Excel Add-ins` from the **Manage** dropdown and click `Go...`
+   - In the Add-ins dialog, click `Browse...`
+   - Navigate to your custom location and select the `.xlam` file
+   - Click `OK`
+   - The add-in will now appear in the list - ensure it's checked
+   - Click `OK` to close the dialog
+
+3. **Important Notes for Custom Locations**:
+   - The add-in will load from wherever you saved it, so **do not move or delete the file** after enabling it
+   - If you move the file, you'll need to remove the old reference and re-add it from the new location
+   - Network locations are supported but may have slower load times
+   - Each user on the computer will need to enable the add-in separately using this method
+       
 ## 📖 User Guide
 
 ### 1. Prerequisites
