@@ -4,6 +4,9 @@
 
 A powerful Excel VBA tool designed for the secure anonymization of Personal Identifiable Information (PII) within Excel and CSV data files. It replaces direct identifiers with realistically formatted, fake data, ensuring compliance with data privacy regulations like GDPR while maintaining data structure for testing and analysis.
 
+
+<img width="1014" height="873" alt="Gemini_Generated_Image_ose25oose25oose2" src="https://github.com/user-attachments/assets/68399d45-cb0c-44d2-bc63-fbe1e54eab95" />
+
 > **Important:** This version strictly focuses on direct identifiers and excludes sensitive quasi-identifiers such as GENDER, RACE, and STATUS from sanitization/redaction.
 
 ## ✨ Key Features
